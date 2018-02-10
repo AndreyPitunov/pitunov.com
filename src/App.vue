@@ -2,7 +2,7 @@
   <div id="app" class="app">
     <section class="section section_contact contact">
       <div class="contact__photo">
-        <img src="/dist/photo.png" alt="Andrey Pitunov">
+        <img src="/dist/photo.jpg" alt="Andrey Pitunov">
       </div>
       <div class="contact__name">Andrey Pitunov</div>
       <div class="contact__social">
