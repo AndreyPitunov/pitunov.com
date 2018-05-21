@@ -86,16 +86,28 @@ body {
 .biography__link {
   color: #5528ff;
   position: relative;
+  overflow: hidden;
 }
 
 .biography__link::before {
   content: '';
   position: absolute;
-  width: calc(100% - 2rem);
+  width: calc(50%);
   height: .1rem;
-  background: #5728ff8c;
+  background: #fff;
   bottom: -.25rem;
-  left: 1rem;
+  left: -100%;
+  transition: all .25s ease-in-out;
+}
+
+.biography__link::after {
+  content: '';
+  position: absolute;
+  width: calc(50%);
+  height: .1rem;
+  background: #fff;
+  bottom: -.25rem;
+  right: -100%;
   transition: all .25s ease-in-out;
 }
 
@@ -107,6 +119,17 @@ body {
   background: #5728ff;
   bottom: -.25rem;
   left: .25rem;
+  transition: all .25s ease-in-out;
+}
+
+.biography__link:hover::after {
+  content: '';
+  position: absolute;
+  width: calc(100% - .25rem);
+  height: .2rem;
+  background: #5728ff;
+  bottom: -.25rem;
+  right: .25rem;
   transition: all .25s ease-in-out;
 }
 
