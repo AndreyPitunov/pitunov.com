@@ -1,14 +1,5 @@
 {
-  "main.css": "static/css/main.200d4881.css",
-  "main.css.map": "static/css/main.200d4881.css.map",
-  "main.js": "static/js/main.13e12849.js",
-  "main.js.map": "static/js/main.13e12849.js.map",
-  "static/media/GitHub.svg": "static/media/GitHub.891245da.svg",
-  "static/media/MadrasBlack.otf": "static/media/MadrasBlack.49b9fdba.otf",
-  "static/media/MadrasBold.otf": "static/media/MadrasBold.adb7dcbb.otf",
-  "static/media/MadrasExtraLight.otf": "static/media/MadrasExtraLight.14fb93ae.otf",
-  "static/media/MadrasRegular.otf": "static/media/MadrasRegular.a51325fb.otf",
-  "static/media/Mail.svg": "static/media/Mail.424d1471.svg",
-  "static/media/Telegram.svg": "static/media/Telegram.c17c1b5f.svg",
-  "static/media/photo.jpg": "static/media/photo.663e09c4.jpg"
+  "main.js": "static/js/main.dec8b5bc.js",
+  "main.js.map": "static/js/main.dec8b5bc.js.map",
+  "static/media/photo.jpg": "static/media/photo.a8c49e9a.jpg"
 }

@@ -6,11 +6,13 @@
     "create-react-app-sass": "^1.1.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "styled-components": "^4.1.3"
   },
   "scripts": {
     "start": "react-scripts-with-sass start",
     "build": "react-scripts-with-sass build",
+    "deploy": "gh-pages-deploy",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
